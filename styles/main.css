@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.story {
+    color: #000000;
+    background-color: #EEF1F7;
+
+}
+
+.story .container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.story .container .top {
+    width: 781px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 101px 0 70px;
+}
+
+.story .container .top .title {
+    width: 400px;
+    height: 30px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.story .container .top .title .changing {
+    background-color: yellow;
+}
+
+.story .container .top .text {
+    width: 781px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px auto 70px;
+}
+
+/* cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards .messengers {
+    width: 230px;
+    height: 182px;
+    background-color: #FFFFFF;
+    margin-bottom: 130px;
+    border: 0 solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cards .messengers .logo {
+    margin: 30px 90px 20px;
+}
+
+.cards .messengers .upload {
+    width: 174px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px auto 30px;
+
+
+}
+
+.cards .messengers .upload .modification {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
